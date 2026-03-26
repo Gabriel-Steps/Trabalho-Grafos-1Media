@@ -340,7 +340,6 @@ export default function App() {
       <header className="header">
         <div className="header-left">
           <span className="logo">GraphLab</span>
-          <span className="version">v1.0</span>
         </div>
         <div className="header-center">
           <button className={`toggle-btn ${!directed?'active':''}`} onClick={()=>{setDirected(false);setEdges([]);clearHighlight()}}>Não-dirigido</button>
